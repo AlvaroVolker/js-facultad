@@ -1,0 +1,74 @@
+.encabezado h2 {
+	color: #000000;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;/*
+  margin: inherit;
+  width: 90%;
+
+  background-color: #CCC;
+  left: 0;
+  right: 0;
+*/
+
+  background: url('img/fondo1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+}
+
+footer h4 {
+  margin: 0;
+  padding: 0.25m;
+  color: #EEE;
+}
+
+input {
+	padding-left: 2em;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+header {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  background: #DDD;
+  padding: 0.3em;
+  border-radius: 0.5em;
+}
+
+#jumbo {
+	background: url('img/fondo1.png');
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main {
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  background: #DDD;
+  padding: 3px;
+}
+
+.logged {
+  float: right !important;
+  color: green;
+  background-color: black;
+}

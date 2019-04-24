@@ -1,0 +1,44 @@
+var personas = [
+	{apellido:'Gomez',nombre:'Jose',fnac:'1970-10-10', dni:'10100100',email:'jose@gomez.com'},
+	{apellido:'Gomez',nombre:'Juan',fnac:'1970-10-10', dni:'10100200',email:'juan@gomez.com'},
+	{apellido:'Gomez',nombre:'Daniel',fnac:'1970-10-10', dni:'10100300',email:'daniel@gomez.com'},
+	{apellido:'Gomez',nombre:'Pedro',fnac:'1970-10-10', dni:'10100400',email:'pedro@gomez.com'},
+	{apellido:'Gomez',nombre:'Ana',fnac:'1970-10-10', dni:'10100500',email:'ana@gomez.com'},
+	{apellido:'Gomez',nombre:'Maria',fnac:'1970-10-10', dni:'10100600',email:'maria@gomez.com'},
+	{apellido:'Gomez',nombre:'Laura',fnac:'1970-10-10', dni:'10100107',email:'laura@gomez.com'},
+	{apellido:'Gomez',nombre:'Lucia',fnac:'1970-10-10', dni:'10100108',email:'lucia@gomez.com'},
+	{apellido:'Gomez',nombre:'Graciela',fnac:'1970-10-10', dni:'10100109',email:'graciela@gomez.com'},
+	{apellido:'Garcia',nombre:'Jose',fnac:'1970-10-10', dni:'19100100',email:'jose@garcia.com'},
+	{apellido:'Garcia',nombre:'Juan',fnac:'1970-10-10', dni:'19100200',email:'juan@garcia.com'},
+	{apellido:'Garcia',nombre:'Daniel',fnac:'1970-10-10', dni:'19100300',email:'daniel@garcia.com'},
+	{apellido:'Garcia',nombre:'Pedro',fnac:'1970-10-10', dni:'19100400',email:'pedro@garcia.com'},
+	{apellido:'Garcia',nombre:'Ana',fnac:'1970-10-10', dni:'19100500',email:'ana@garcia.com'},
+	{apellido:'Garcia',nombre:'Maria',fnac:'1970-10-10', dni:'19100600',email:'maria@garcia.com'},
+	{apellido:'Garcia',nombre:'Laura',fnac:'1970-10-10', dni:'19100107',email:'laura@garcia.com'},
+	{apellido:'Garcia',nombre:'Lucia',fnac:'1970-10-10', dni:'19100108',email:'lucia@garcia.com'},
+	{apellido:'Garcia',nombre:'Graciela',fnac:'1970-10-10', dni:'19100109',email:'graciela@garcia.com'},
+	{apellido:'Gonzalez',nombre:'Jose',fnac:'1970-10-10', dni:'23300100',email:'jose@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Juan',fnac:'1970-10-10', dni:'23300200',email:'juan@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Daniel',fnac:'1970-10-10', dni:'23300300',email:'daniel@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Pedro',fnac:'1970-10-10', dni:'23300400',email:'pedro@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Ana',fnac:'1970-10-10', dni:'23300500',email:'ana@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Maria',fnac:'1970-10-10', dni:'23300600',email:'maria@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Laura',fnac:'1970-10-10', dni:'23300107',email:'laura@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Lucia',fnac:'1970-10-10', dni:'23300108',email:'lucia@gonzalez.com'},
+	{apellido:'Gonzalez',nombre:'Graciela',fnac:'1970-10-10', dni:'23300109',email:'graciela@gonzalez.com'},
+	{apellido:'Gimenez',nombre:'Jose',fnac:'1970-10-10', dni:'30300100',email:'jose@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Juan',fnac:'1970-10-10', dni:'30300200',email:'juan@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Daniel',fnac:'1970-10-10', dni:'30300300',email:'daniel@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Pedro',fnac:'1970-10-10', dni:'30300400',email:'pedro@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Ana',fnac:'1970-10-10', dni:'30300500',email:'ana@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Maria',fnac:'1970-10-10', dni:'30300600',email:'maria@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Laura',fnac:'1970-10-10', dni:'30300107',email:'laura@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Lucia',fnac:'1970-10-10', dni:'30300108',email:'lucia@gimenez.com'},
+	{apellido:'Gimenez',nombre:'Graciela',fnac:'1970-10-10', dni:'30300109',email:'graciela@gimenez.com'},
+];
+
+/* 	
+Armando una BDD local, en la consola del navegador:
+localstorage.clear();
+personas.forEach((item) => db.guardar(item.dni, JSON.stringify(item)));
+*/
